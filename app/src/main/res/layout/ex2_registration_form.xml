@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Registration Form"
+            android:text="@string/registration_form"
             android:textSize="29sp" />
     </LinearLayout>
 
@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Welcome to Adventure Learning Club!" />
+            android:text="@string/welcome_to_adventure_learning_club" />
     </LinearLayout>
 
     <LinearLayout
@@ -57,7 +57,7 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Full name" />
+            android:text="@string/full_name" />
 
         <EditText
             android:id="@+id/editTextTextPersonName2"
@@ -66,7 +66,7 @@
             android:ems="5"
             android:inputType="textPersonName"
             android:layout_weight="2"
-            android:text="First Name" />
+            android:text="@string/first_name" />
 
         <EditText
             android:id="@+id/editTextTextPersonName3"
@@ -75,7 +75,7 @@
             android:layout_weight="2"
             android:ems="5"
             android:inputType="textPersonName"
-            android:text="Last Name" />
+            android:text="@string/last_name" />
 
     </LinearLayout>
 
@@ -89,7 +89,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Gender" />
+            android:text="@string/gender" />
 
         <RadioGroup
             android:layout_width="wrap_content"
@@ -101,14 +101,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="checkButton"
-                android:text="Male"></RadioButton>
+                android:text="@string/male"></RadioButton>
 
             <RadioButton
                 android:id="@+id/Female"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="checkButton"
-                android:text="Female"></RadioButton>
+                android:text="@string/female"></RadioButton>
         </RadioGroup>
 
     </LinearLayout>
@@ -123,7 +123,7 @@
             android:id="@+id/student_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Student ID" />
+            android:text="@string/student_id" />
 
         <EditText
             android:id="@+id/editTextStudent_id"
@@ -145,7 +145,7 @@
             android:id="@+id/school"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="School       " />
+            android:text="@string/school" />
 
         <EditText
             android:id="@+id/editTextSchool"
@@ -166,7 +166,7 @@
             android:id="@+id/email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="E-mail        " />
+            android:text="@string/e_mail" />
 
         <EditText
             android:id="@+id/editTextEmail"
@@ -187,7 +187,7 @@
             android:id="@+id/phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Phone        " />
+            android:text="@string/phone" />
 
         <EditText
             android:id="@+id/editTextPhone"
@@ -209,7 +209,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Register" />
+            android:text="@string/register" />
     </LinearLayout>
 
 
